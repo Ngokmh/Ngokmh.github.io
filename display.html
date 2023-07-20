@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+</head>
+
+<style>
+    .block{
+    display: block;
+    border: 1px solid red;
+    }
+
+    .inline{
+        /* display: inline; */
+        display: none;
+        border: 1px solid green;
+        margin: 10px;
+        padding:20px;
+
+    }
+
+    .inline-block{
+        display: inline-block;
+        border: 1px solid yellow;
+        height: 50px;
+        width: 50px;
+        margin: 50px;
+        padding: 50px;
+    }
+    
+</style>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum mollitia veniam provident sit consectetur aperiam ipsam necessitatibus consequatur? Culpa consectetur eveniet laborum ex repellendus illum dolorem temporibus mollitia id <span class="block">This is display block</span>doloribus ullam nulla nobis provident totam dolore excepturi quaerat voluptatibus pariatur voluptate possimus, animi est voluptatem rem! Vero facere amet expedita.</p>
+    
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, explicabo! <span class="inline">This is inline</span>Sed nemo deserunt quibusdam magnam ratione in voluptates architecto fugiat!</p>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil cum, et quas ab tempore, <span class="inline-block">This is inline-block</span> quis cumque esse reprehenderit necessitatibus fugit quisquam alias recusandae nulla assumenda eaque illum aliquid, saepe tempora!</p>
+</body>
+</html>

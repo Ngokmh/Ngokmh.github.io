@@ -1,0 +1,29 @@
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+thead{
+    background-color: darksalmon;
+    border-spacing: 100px;
+    color: white;
+}
+
+th{
+    padding: 10px;
+}
+/* td{
+    padding: 5px;
+} */
+
+
+.tr1, .tr3, .tr5{
+    background-color: mistyrose;
+}
+
+address{
+    color:blue;
+}

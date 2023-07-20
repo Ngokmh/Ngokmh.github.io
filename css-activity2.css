@@ -1,0 +1,51 @@
+.man{
+    box-sizing: border-box;
+    
+    box-shadow: 20px 10px 10px gray;
+    float: left;
+    margin-right: 20px;
+    margin-left: 400px;
+    border-radius: 20px;
+    background-color: white;
+    
+    
+}
+
+
+
+.woman{
+    box-sizing: border-box;
+    box-shadow: 20px 10px 10px gray;
+    
+    float: left;
+    margin-left: 20px;  
+    border-radius: 20px;
+    background-color: white;  
+}
+
+.img1{
+    box-sizing: content-box;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.img2{
+    box-sizing: content-box;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* .man-description{
+    background-color: white;
+} */
+
+.name{
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    background-image: url(sa_pixar_virtualbg_toystory_16x9_8461039f.jpeg);
+}
